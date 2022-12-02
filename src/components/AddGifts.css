@@ -1,0 +1,10 @@
+input{
+    width: 300px;
+    height: 30px;
+    background: black;
+    border-radius: 12px;
+    color: white;
+    font-size: 25px;
+    margin-left: 70px;
+    font-family: cursive;
+}

@@ -1,0 +1,45 @@
+body{
+
+  background: linear-gradient(
+      45deg,
+      red, blue, rgb(93, 216, 227), deeppink,
+      red, rgb(219, 212, 140), green, deeppink
+  );
+  background-size: 400% 400%;
+  position: relative;
+  animation: move 20s ease infinite;
+}
+
+.container{
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 170px;
+  margin-left: 600px;
+  border: 2px solid black;
+  width: 30%;
+  height: 400px;
+  padding: 16px 32px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 12px;
+}
+
+h1{
+  font-size: 50px;
+  margin-left: 65px;
+  margin-top: 10%;
+  color: black;
+}
+
+#list{
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 10px;
+  color: #fff;
+  background-color: blur(1);
+}
+
+@keyframes move{
+  0%{ background-position: 0 50%;}
+  50%{ background-position: 100% 50%;}
+  100%{ background-position: 0 50%;}
+}
